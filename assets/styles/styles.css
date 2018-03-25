@@ -7,8 +7,54 @@ html, body {
   padding: 0;
 }
 
-.menubar {
+h1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 40px;
 }
 
+h2 {
+  font-family: "montserrat", sans-serif;
+  font-size: 30px;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+.menubar {
+  font-family: "montserrat" sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: black;
+  min-width: 100%;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  z-index: 1;
+  }
+
 .menubar span {
+  float: left;
+  color: white;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 30px;
+}
+
+#dashboardsection {
+  max-width: 1280px;
+  padding-top: 80px;
+  margin: auto;
 }

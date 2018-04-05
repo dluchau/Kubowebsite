@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 html, body {
   width: auto;
   max-width: 100%;
@@ -25,7 +27,6 @@ body {
   background-position: center;
   background-repeat: repeat-y;
 }
-
 .menubar {
   font-family: "montserrat" sans-serif;
   font-size: 20px;
@@ -140,7 +141,19 @@ input[type=text], input[type=password] {
   background-color: white;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 425px;
-  height: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px 50px 50px 0;
+}
+.forumbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  width: 900px;
+  height: 80px;
   border-radius: 10px;
   margin: 10px 50px 50px 0;
 }
@@ -152,11 +165,23 @@ input[type=text], input[type=password] {
   padding-top: 50px;
   margin: auto;
 }
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  width: 900px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px 50px 50px 0;
+}
 
 /*FORUM PAGE*/
 
 #forumsection {
-  max-width: 1280px;
+  max-width: 900px;
   padding-top: 50px;
   margin: auto;
 }

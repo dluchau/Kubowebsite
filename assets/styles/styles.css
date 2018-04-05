@@ -85,28 +85,30 @@ li {
 
 
 input[type=text], input[type=password] {
-    font-size: 20px;
-    width: 100%;
-    padding: 10px 10px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 10px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 button {
-    font-size: 30px;
-    font-family: "montserrat", sans-serif;
-    font-size: 30px;
-    color: white;
-    font-weight: 400;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  font-size: 30px;
+  font-family: "montserrat", sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
 }
 
 .continuebutton {
@@ -119,8 +121,8 @@ button {
 }
 
 #forgotpassword {
-    float: left;
-    margin-top: 40px;
+  float: left;
+  margin-top: 40px;
 }
 
 

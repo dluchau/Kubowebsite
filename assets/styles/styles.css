@@ -72,10 +72,6 @@ button {
   display: inline-block;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
 }
-.readbutton {
-  font-size: 20px;
-  background-color: #298dc1;
-}
 .continuebutton {
   font-size: 20px;
   float: right;
@@ -83,6 +79,14 @@ button {
   margin-top: 35px;
   padding: 5px 10px;
   background-color: #77bd43;
+}
+.beginbutton{
+  font-size: 20px;
+  background-color: #298dc1;
+}
+.readbutton {
+  font-size: 20px;
+  background-color: #298dc1;
 }
 
 /*LOGIN PAGE*/
@@ -134,6 +138,7 @@ input[type=text], input[type=password] {
 .halfbox {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: white;
@@ -146,7 +151,7 @@ input[type=text], input[type=password] {
 .forumbox {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   background-color: white;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
@@ -154,8 +159,8 @@ input[type=text], input[type=password] {
   height: 80px;
   border-radius: 10px;
   margin: 10px 50px 50px 0;
+  padding: 0 0 0 20px;
 }
-
 /*LEARNING PAGE*/
 
 #learningsection {

@@ -2,28 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>KUBO Robotics - Dashboard</title>
+    <title>KUBO Robotics - Login</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/styles.css">
   </head>
   <body>
-      <header>
-        <ul class="menubar">
-          <span>KUBO</span>
-          <li><a href="account.html">ACCOUNT</a></li>
-          <li><a href="forum.html">FORUM</a></li>
-          <li><a href="learning.html">LEARNING</a></li>
-          <li><a href="index.html">DASHBOARD</a></li>
-        </ul>
-      </header>
-<main>
-      <section id="dashboardsection">
-        <h1>Dashboard</h1>
-        <h2>Latest news</h2>
-      </section>
-</main>
-<footer>
-  <p>KUBO Robotics ApS | Niels Bohrs Allé 185, 5220 Odense SØ | SE/CVR-nr.: 37043958e</p>
-</footer>
+    <header>
+    </header>
+  <main>
+    <section id="loginsection">
+      <div id="loginbox">
+        <img src="assets/images/logo.png" alt="comapny logo" id="loginlogo">
+        <form action="loginpage.php">
+      <div id="loginform">
+        <label for="email">EMAIL</label>
+          <input type="text"name="email">
+        <label for="password">PASSWORD</label>
+          <input type="password" name="password">
+        <button onclick="window.location.href='dashboard.html'" class="continuebutton" type="button">CONTINUE</button>
+      </div>
+    <span id="forgotpassword"><a href="">Forgot password?</a></span>
+  </div>
+</form>
+
+        </div>
+    </section>
+  </main>
   </body>
 </html>

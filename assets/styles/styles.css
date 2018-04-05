@@ -58,44 +58,7 @@ li {
   padding: 15px 80px 0 0;
 }
 
-/*MAIN SECTIONS OF EACH PAGE*/
-
-#loginsection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-#loginbox {
-  width: 400px;
-  height: 460px;
-  padding: 40px;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
-}
-
-#loginlogo {
-  width: 280px;
-  height: 80px;
-  margin: 60px 60px 60px 60px;
-}
-
-
-input[type=text], input[type=password] {
-  font-family: "montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  width: 100%;
-  padding: 10px 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border-radius: 10px;
-}
+/*BUTTONS*/
 
 button {
   font-size: 30px;
@@ -110,7 +73,10 @@ button {
   display: inline-block;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
 }
-
+.readbutton {
+  font-size: 20px;
+  background-color: #298dc1;
+}
 .continuebutton {
   font-size: 20px;
   float: right;
@@ -120,31 +86,76 @@ button {
   background-color: #77bd43;
 }
 
+/*LOGIN PAGE*/
+
+#loginsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#loginbox {
+  width: 400px;
+  height: 460px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+}
+#loginlogo {
+  width: 280px;
+  height: 80px;
+  margin: 60px 60px 60px 60px;
+}
+input[type=text], input[type=password] {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 #forgotpassword {
   float: left;
   margin-top: 40px;
 }
 
+/*DASHBOARD PAGE*/
 
 #dashboardsection {
-  max-width: 1280px;
+  max-width: 900px;
   padding-top: 50px;
   margin: auto;
 }
+.halfbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  width: 425px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px 50px 50px 0;
+}
+
+/*LEARNING PAGE*/
 
 #learningsection {
-  max-width: 1280px;
+  max-width: 900px;
   padding-top: 50px;
   margin: auto;
 }
+
+/*FORUM PAGE*/
 
 #forumsection {
-  max-width: 1280px;
-  padding-top: 50px;
-  margin: auto;
-}
-
-#accountsection {
   max-width: 1280px;
   padding-top: 50px;
   margin: auto;

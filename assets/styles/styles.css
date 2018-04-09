@@ -198,6 +198,13 @@ input[type=text], input[type=password] {
   max-width: 900px;
   padding-top: 60px;
   margin: auto;
+  height: 100%;
+}
+
+.forumbox {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
 }
 
 footer {

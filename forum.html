@@ -20,7 +20,32 @@
       <section id="forumsection">
         <h1>Forum</h1>
         <div class="forumbox">
-          <h3>Overskrift</h3>
+          <div class="vote">
+            <h3>Overskrift</h3>
+            <script>src="assets/js/script.js"</script>
+            <div id="app">
+              <div class="container-fluid">
+                <ul class="list-group">
+                <post v-for="post in posts" :post="post"></post>
+                </ul>
+              </div>
+            </div>
+
+            <template id="post-template">
+              <li class="list-group-item">
+                <i class="glyphicon glyphicon-chevron-up" @click="upvote"></i>
+                <span class="label label-primary">{{ votes }}</span>
+                <i class="glyphicon glyphicon-chevron-down" @click="downvote"></i>
+                <a>{{ post.title }}</a>
+              </li>
+            </template>
+          </div>
+        </div>
+
+
+
+            <h3>Overskrift</h3>
+          </div>
           <p>Tekst om robotter og lort og bræk Tekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om </p>
         </div>
         <div class="forumbox">

@@ -72,12 +72,16 @@ button {
   display: inline-block;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
 }
-.continuebutton {
+.continuebuttonlogin {
   font-size: 20px;
   float: right;
   width: auto;
   margin-top: 35px;
   padding: 5px 10px;
+  background-color: #77bd43;
+}
+.continuebutton {
+  font-size: 20px;
   background-color: #77bd43;
 }
 .beginbutton{
@@ -137,7 +141,7 @@ input[type=text], input[type=password] {
 
 #dashboardsection {
   max-width: 900px;
-  padding-top: 60px;
+  padding: 60px 0px 60px 0px;
   margin: auto;
 }
 .halfbox {
@@ -183,9 +187,9 @@ input[type=text], input[type=password] {
   background-color: white;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 900px;
-  height: 200px;
+  height: 150px;
   border-radius: 10px;
-  margin: 10px 50px 50px 0;
+  margin: 0px 0px 0px 0;
 }
 
 /*FORUM PAGE*/

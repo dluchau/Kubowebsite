@@ -20,37 +20,15 @@
       <section id="forumsection">
         <h1>Forum</h1>
         <div class="forumbox">
-          <div class="vote">
-            <h3>Overskrift</h3>
-            <script>src="assets/js/script.js"</script>
-            <div id="app">
-              <div class="container-fluid">
-                <ul class="list-group">
-                <post v-for="post in posts" :post="post"></post>
-                </ul>
-              </div>
-            </div>
-
-            <template id="post-template">
-              <li class="list-group-item">
-                <i class="glyphicon glyphicon-chevron-up" @click="upvote"></i>
-                <span class="label label-primary">{{ votes }}</span>
-                <i class="glyphicon glyphicon-chevron-down" @click="downvote"></i>
-                <a>{{ post.title }}</a>
-              </li>
-            </template>
-          </div>
-        </div>
-
-
+          <div>
+            <center><button class="buttonup" id="plus" style="vertical-align:middle" ><span>Upvote </span> </button>         <span id="count">0</span>
+            <button  class="buttondw" id="minus" style="vertical-align:middle"><span>Downvote </span> </button></center>
+            <script src="assets/js/script.js"></script>
+            <script type="text/javascript" src="assets/js/script.js"></script>
 
             <h3>Overskrift</h3>
+            <p>Tekst om robotter og lort og bræk Tekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om </p>
           </div>
-          <p>Tekst om robotter og lort og bræk Tekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om </p>
-        </div>
-        <div class="forumbox">
-          <h3>Overskrift</h3>
-          <p>Tekst om robotter og lort og bræk Tekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om </p>
         </div>
         <div class="forumbox">
           <h3>Overskrift</h3>

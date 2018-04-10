@@ -15,9 +15,23 @@
         <li><a href="learning.html">LEARNING</a></li>
         <li><a href="dashboard.html">DASHBOARD</a></li>
       </ul>
-    </header>s
+    </header>
 <main>
-      <section id="forumsection">
+  <section id="forumsection">
+    <button id="newpostbutton">+NEW POST</button>
+      <div id="newpostpopup" class="popup">
+        <div class="popup-content">
+            <h2>New post</h2>
+              <p>Topic</p>
+                <form>
+                  <input type="text" name="postcontent"><br>
+                </form>
+                <button class="postbutton">POST</button>
+                <button class="closebutton">CLOSE</button>
+            </div>
+          </div>
+        <script src="assets/js/popup.js"></script>
+
         <p>Topic:</p>
         <p>Sort:</p>
         <h1>Forum</h1>

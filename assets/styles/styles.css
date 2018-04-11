@@ -209,8 +209,37 @@ input[type=text], input[type=password] {
   margin: 0px 0px 0px 0;
 }
 
-#tutorialintroduction {
-  
+#introductionsection {
+  max-width: 900px;
+  padding-top: 60px;
+  margin: auto;
+}
+
+#tutorial {
+  display: flex;
+  flex-direction: row;
+}
+
+#tutorialleft {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin: 0px 0px 50px 0px;
+}
+
+#tutorialright {
+  justify-content: center;
+  align-items: center;
+  background-color: #298dc1;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  width: 550px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 0px 0px 50px 50px;
 }
 
 /*FORUM PAGE*/

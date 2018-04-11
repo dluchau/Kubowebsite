@@ -244,8 +244,12 @@ input[type=text], input[type=password] {
   margin: 0px 0px 50px 50px;
 }
 
-#tutorialleft p {
+.tutorialhead {
   margin-left: 20px;
+}
+
+.tutorialsub {
+  margin-left: 40px;
 }
 
 /*FORUM PAGE*/

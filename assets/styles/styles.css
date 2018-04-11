@@ -187,7 +187,6 @@ input[type=text], input[type=password] {
 .forumpreview {
   display: flex;
   flex-direction: row;
-  justify-content: left;
   align-items: center;
   align-self: flex-start;
   background-color: white;
@@ -195,9 +194,18 @@ input[type=text], input[type=password] {
   width: 900px;
   height: 60px;
   border-radius: 10px;
-  margin: 10px 50px 20px 0;
-  padding: 0 20px 0 20px;
+  margin-bottom: 20px;
 }
+
+.forumpreview button {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.forumpreview p {
+  margin-left: 15px;
+}
+
 
 /*LEARNING PAGE*/
 

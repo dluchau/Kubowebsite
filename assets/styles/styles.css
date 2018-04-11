@@ -295,112 +295,17 @@ input[type=text], input[type=password] {
   margin-bottom: 50px;
 }
 
-/*.forumbox h3 {
+.forumbox h3 {
   margin-bottom: -20px;
   margin-left: 15px;
-}*/
+}
 
 .forumbox p {
   margin-left: 15px;
   margin-right: 15px;
 }
 
-/*Votebutton*/
-.buttonup {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #4CAF50;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 18px;
-  padding: 5px;
-  width: 125px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin-right: 25px;
-}
 
-.buttondw {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f44336;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 18px;
-  padding: 5px;
-  width: 125px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin-left: 25px;
-}
-
-.buttonup span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.buttonup span:after {
-  content: '👍';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttonup:hover span {
-  padding-right: 25px;
-}
-
-.buttonup:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-.buttondw span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.buttondw span:after {
-  content: '👎';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttondw:hover span {
-  padding-right: 25px;
-}
-
-.buttondw:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-#count {
- display: inline-block;
-  border-radius: 0px;
-  background-color: #ff9933;
-  border: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 18px;
-  padding: 5px;
-  width: 50px;
-  margin-top: 0px;
-
-}
 
 /*FORUMPOST 1*/
 

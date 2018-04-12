@@ -214,11 +214,15 @@ input[type=text], input[type=password] {
 }
 
 /*DASHBOARD PAGE*/
-#dashboard {
+#dashboardsection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   max-width: 900px;
   padding: 60px 0px 60px 0px;
   margin: auto;
 }
+
 .halfbox {
   display: flex;
   flex-direction: column;

@@ -1,51 +1,49 @@
-var VoteWidget= {
-  settings: {
-    $counter: $('.vote-count'),
-    $btn:     $('.myform button'),
+Vue.component('post', {
+  template: "#post-template",
+  props: ['post'],
+  data: function () {
+    return {
+      upvoted: false,
+      downvoted: false
+    };
   },
-init: function() {
-  VoteWidget.bind();
-},
-  bind: function() {
-    VoteWidget.settings.$btn.click(function(){
-      if (! $(this).hasClass('complete')) {
-            VoteWidget.bumpCount();
+  methods: {
+    upvote: function () {
+      this.upvoted = !this.upvoted;
+      this.downvoted = false;
+    },
+    downvote: function () {
+      this.downvoted = !this.downvoted;
+      this.upvoted = false;
+    }
+  },
+  computed: {
+    votes: function () {
+      if (this.upvoted) {
+        return this.post.votes + 1;
+      } else if (this.downvoted) {
+        return this.post.votes - 1;
+      } else {
+        return this.post.votes;
       }
-      $(this).toggleClass('complete');
-      VoteWidget.toggleText();  
-
-    return false;
-  });
-  },
-  bumpCount: function() {
-    var current_count = $('.vote-count').text();
-    count = parseInt(current_count);
-    count++;
-    VoteWidget.settings.$counter.toggleClass('bumped').text(count);
-  },
-  toggleText: function(){
-    var $text_container = $('.myform button .text');
-    var alt_text = VoteWidget.settings.$btn.data('alt-text');
-    var default_text = VoteWidget.settings.$btn.data('default-text');
-    var current_text = $text_container.text();
-    console.log('current is ' + current_text);
-    if ( current_text == default_text ) {
-      $text_container.text(alt_text)
-    } else {
-      $text_container.text(default_text)
     }
   }
-}
+});
 
-
-VoteWidget.init();
-
-
-
-
-
-
-
-
-
-
+var vm = new Vue({
+  el: "#app",
+  data: {
+    posts: [{
+				title: "A post for our reddit demo starting at 15 votes",
+				votes: 15
+			},
+			{
+				title: "Try out the upvoting, it works, I promise",
+				votes: 53
+			},
+			{
+				title: "coligo is the bomb!",
+				votes: 10
+			}]
+  }
+});

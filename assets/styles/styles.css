@@ -220,7 +220,7 @@ input[type=text], input[type=password] {
   background-color: white;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 900px;
-  height: 150px;
+  height: 200px;
   border-radius: 10px;
   margin: 0px 0px 0px 0;
 }

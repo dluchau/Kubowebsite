@@ -25,6 +25,12 @@
     </div>
 <main>
   <section id="introductionsection">
+    <button class="tutorialbackbutton" onclick="goBack()">Back</button>
+    <script>
+      function goBack() {
+      window.history.back();
+      }
+    </script>
     <h1>Introduction</h1>
     <div id="tutorial">
     <div id="tutorialleft">
@@ -36,12 +42,6 @@
   <div>
     <div class="right">
       <div id="tutorialright"></div>
-      <button onclick="goBack()">Back</button>
-      <script>
-        function goBack() {
-        window.history.back();
-        }
-      </script>
     </div>
   </div>
 

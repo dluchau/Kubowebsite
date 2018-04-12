@@ -7,16 +7,21 @@ html, body {
   background-color: white;
   margin: 0;
   padding: 0;
+  column-gap: 0;
 }
 h1 {
   font-family: "montserrat", sans-serif;
   font-weight: 500;
   font-size: 40px;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 h2 {
   font-family: "montserrat", sans-serif;
   font-weight: 400;
   font-size: 30px;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 body {
   font-family: "montserrat", sans-serif;
@@ -29,7 +34,7 @@ body {
 }
 
 
-/* Menu */
+/* HEADER */
 .navbar {
   display: flex;
   align-items: center;
@@ -41,11 +46,12 @@ body {
   height: 60px;
   box-shadow: 0px 10px 10px  rgba(0, 0, 0, 0.16);
   font-size: 20px;
+  padding: 0;
+  margin: 0;
 }
 
-/* Links inside the navbar */
 .navbar a {
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -60,30 +66,26 @@ body {
   margin-right: 30%;
 }
 
-/* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: black;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  margin: 0;
 }
 
-/* Higlight blue on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   color: #298dc1;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -93,7 +95,6 @@ body {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: black;
@@ -103,12 +104,10 @@ body {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
 
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
   background-color: white;
@@ -116,7 +115,7 @@ body {
 
 
 /*BUTTONS*/
-.buttonmain{
+button{
   font-size: 20px;
   font-family: "montserrat", sans-serif;
   color: #fff;
@@ -173,6 +172,11 @@ body {
 #newpostbutton {
   font-size: 20px;
   background-color: #77bd43;
+  margin-left: auto;
+}
+
+.tutorialbackbutton {
+  margin: 0;
 }
 
 button:hover{
@@ -223,7 +227,7 @@ input[type=text], input[type=password] {
   justify-content: center;
   flex-direction: column;
   max-width: 900px;
-  padding: 60px 0px 60px 0px;
+  padding: 30px 0px 30px 0px;
   margin: auto;
 }
 
@@ -264,20 +268,19 @@ input[type=text], input[type=password] {
 
 
 
-/*Accountsections*/
+/*ACCOUNT PAGE*/
 
 #accountsection {
   max-width: 900px;
-  padding-top: 60px;
+  padding: 30px 0 30px 0;
   margin: auto;
-  height: 100vh;
 }
 
 /*LEARNING PAGE*/
 
 #learningsection {
   max-width: 900px;
-  padding-top: 60px;
+  padding-top: 30px 0 30px 0;
   margin: auto;
 }
 .box {
@@ -295,7 +298,7 @@ input[type=text], input[type=password] {
 
 #introductionsection {
   max-width: 900px;
-  padding-top: 60px;
+  padding: 30px 0 30px 0;
   margin: auto;
 }
 
@@ -349,14 +352,14 @@ input[type=text], input[type=password] {
 
 /*FORUM PAGE*/
 
+/*IF WE STYLE #FORUMSECTION INSTEAD, IT LOOKS BETTER*/
 #forumwrap {
   display: flex;
   justify-content: center;
   flex-direction: column;
   max-width: 900px;
-  padding-top: 80px;
+  padding: 30px 0 30px 0;
   margin: auto;
-  margin-top: 50px;
 }
 
 .popup {
@@ -414,13 +417,11 @@ input[type=text], input[type=password] {
 }
 
 
-
-
 /*FORUMPOST 1*/
 
 #forumpost1section {
   max-width: 900px;
-  padding-top: 60px;
+  padding-top: 30px 0 30px 0;
   margin: auto;
   height: 100vh;
 }
@@ -439,7 +440,6 @@ input[type=text], input[type=password] {
   padding: 0 50px 0 50px;
 }
 
-<<<<<<< HEAD
 /*popup*/
 /* The Modal (background) */
 .modal {
@@ -481,8 +481,6 @@ input[type=text], input[type=password] {
 }
 
 
-=======
->>>>>>> e467c25bc6a33585331ec05b13b342f01d0f740c
 footer {
   display: flex;
   align-items: center;

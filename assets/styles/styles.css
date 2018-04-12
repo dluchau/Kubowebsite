@@ -62,11 +62,9 @@ li {
   width: auto;
 }
 
-
-
 /*BUTTONS*/
 
-button{
+.buttonmain{
   font-size: 20px;
   font-family: "montserrat", sans-serif;
   color: #fff;

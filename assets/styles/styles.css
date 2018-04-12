@@ -13,7 +13,7 @@ h1 {
   font-family: "montserrat", sans-serif;
   font-weight: 500;
   font-size: 40px;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 10px 0px;
   margin: 0;
 }
 h2 {
@@ -410,18 +410,18 @@ input[type=text], input[type=password] {
   margin: 30px 0 30px 0;
 }
 
-.forumbox h3 {
+.forumbox h2 {
   margin-bottom: -20px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .forumbox p {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
-/*FORUMPOST 1*/
+/*FORUMPOSTS*/
 
 #forumpost1section {
   max-width: 900px;
@@ -438,10 +438,30 @@ input[type=text], input[type=password] {
   background-color: white;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 900px;
-  height: 150px;
+  height: auto;
   border-radius: 10px;
-  margin-top: 50px;
-  padding: 0 50px 0 50px;
+  margin: 30px 0 30px 0;
+}
+
+.forumheader {
+  padding: 20px 20px 20px 20px;
+}
+
+.forumsubtext {
+  padding: 0px 20px 20px 20px;
+  color: #D3D3D3;
+}
+
+.forumcontent {
+  padding: 0px 20px 20px 20px;
+}
+
+.commenthead {
+  padding: 0px 20px 20px 20px;
+}
+
+.commentbox {
+
 }
 
 /*popup*/

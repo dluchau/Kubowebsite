@@ -50,7 +50,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin-right: 50px;
+  margin-right: auto;
 }
 
 .navbar img {
@@ -68,7 +68,7 @@ body {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px; 
+  font-size: 16px;
   border: none;
   outline: none;
   color: black;
@@ -105,7 +105,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  
+
 }
 
 /* Show the dropdown menu on hover */
@@ -288,7 +288,7 @@ input[type=text], input[type=password] {
   background-color: white;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 900px;
-  height: 150px;
+  height: 200px;
   border-radius: 10px;
   margin: 0px 0px 0px 0;
 }
@@ -495,4 +495,3 @@ footer {
   color: #00000;
   box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.16);
 }
-

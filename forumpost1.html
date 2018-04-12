@@ -8,18 +8,24 @@
     <link rel="shortcut icon" href="assets/images/favicon.png"/>
   </head>
   <body>
-      <header>
-        <ul class="menubar">
-          <span><a href="dashboard.html"><img src="assets/images/logo.png" id="menulogo"</a></span>
-          <li><a href="account.html">ACCOUNT</a></li>
-          <li><a href="forum.html">FORUM</a></li>
-          <li><a href="learning.html">LEARNING</a></li>
-          <li><a href="dashboard.html">DASHBOARD</a></li>
-        </ul>
-      </header>
+      <div class="navbar">
+       <img src="assets/images/logo.png" id="menulogo">
+       <a href="dashboard.html">Dashboard</a>
+       <a href="learning.html">Learning</a>
+       <a href="forum.html">Forum</a>
+      <div class="dropdown">
+         <button class="dropbtn" onclick="myFunction()">ACCOUNT
+         <i class="fa fa-caret-down"></i>
+         </button>
+        <div class="dropdown-content" id="myDropdown">
+         <a href="#">Log out</a>
+         <a href="#">Settings</a>
+        </div>
+      </div>
+    </div>
 <main>
   <section id="forumpost1section">
-        
+
         <button onclick="goBack()">Back</button>
         <script>
           function goBack() {

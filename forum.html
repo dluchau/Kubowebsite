@@ -8,32 +8,24 @@
     <link rel="shortcut icon" href="assets/images/favicon.png"/>
   </head>
   <body>
-    <header>
-        <ul class="menubar">
-          <span><a href="dashboard.html"><img src="assets/images/logo.png" id="menulogo"</a></span>
-          <li>
-            <!-- Trigger/Open The Modal -->
-            <button id="myBtn">Open Modal</button>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
-            </div>
-
-            </div>
-            <script src="assets/js/account.js"></script>
-          </li>
-          <li><a href="forum.html">FORUM</a></li>
-          <li><a href="learning.html">LEARNING</a></li>
-          <li><a href="dashboard.html">DASHBOARD</a></li>
-        </ul>
-      </header>
+    <div class="navbar">
+       <img src="assets/images/logo.png" id="menulogo">
+       <a href="dashboard.html">Dashboard</a>
+       <a href="learning.html">Learning</a>
+       <a href="forum.html">Forum</a>
+      <div class="dropdown">
+         <button class="dropbtn" onclick="myFunction()">ACCOUNT
+         <i class="fa fa-caret-down"></i>
+         </button>
+        <div class="dropdown-content" id="myDropdown">
+         <a href="#">Log out</a>
+         <a href="#">Settings</a>
+        </div>
+      </div>
+    </div>
 <main>
   <section id="forumsection">
+    <div id="forumwrap">
     <button id="newpostbutton">+NEW POST</button>
       <div id="newpostpopup" class="popup">
         <div class="popup-content">
@@ -51,7 +43,7 @@
         <p>Sort:</p>
         <div class="forumbox">
           <div>
-      
+
             <h3>Overskrift</h3>
             <p>Tekst om robotter og lort og bræk Tekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om </p>
           </div>
@@ -64,7 +56,7 @@
           <h3>Overskrift</h3>
           <p>Tekst om robotter og lort og bræk Tekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om robotter og lort og brækTekst om </p>
         </div>
-
+    </div>
       </section>
 </main>
 <footer>

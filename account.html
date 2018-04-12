@@ -8,25 +8,32 @@
     <link rel="shortcut icon" href="assets/images/favicon.png"/>
   </head>
   <body>
-      <header>
-        <ul class="menubar">
-          <span><a href="dashboard.html"><img src="assets/images/logo.png" id="menulogo"</a></span>
-          <li><a href="account.html">ACCOUNT</a></li>
-          <li><a href="forum.html">FORUM</a></li>
-          <li><a href="learning.html">LEARNING</a></li>
-          <li><a href="dashboard.html">DASHBOARD</a></li>
-        </ul>
-      </header>
+      <div class="navbar">
+       <img src="assets/images/logo.png" id="menulogo">
+       <a href="dashboard.html">Dashboard</a>
+       <a href="learning.html">Learning</a>
+       <a href="forum.html">Forum</a>
+      <div class="dropdown">
+         <button class="dropbtn" onclick="myFunction()">ACCOUNT
+         <i class="fa fa-caret-down"></i>
+         </button>
+        <div class="dropdown-content" id="myDropdown">
+         <a href="#">Log out</a>
+         <a href="#">Settings</a>
+        </div>
+      </div>
+    </div>
 <main>
-      <section id="dashboardsection">
-      <button id="newpostbutton">+NEW POST</button>
+      <section id="accountsection">
+
+      <button id="newpostbutton">LOG OUT</button>
       <div id="newpostpopup" class="popup">
         <div class="popup-content">
-            <h2>NEW POST</h2>
+            <h2>Are you sure that you want to log out?</h2>
               <p>Topic</p>
-                <textarea id="newpostform" placeholder="Enter your post here"></textarea>
-                <button class="postbutton">POST</button>
-                <button class="closebutton">CLOSE</button>
+
+                <button class="postbutton">YES</button>
+                <button class="closebutton">NO</button>
             </div>
           </div>
         <script src="assets/js/popup.js"></script>

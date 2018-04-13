@@ -1,14 +1,14 @@
 var popup = document.getElementById('newpostpopup');
 
-var btn = document.getElementById("newpostbutton");
+var newpostbutton = document.getElementById("newpostbutton");
 
-var button = document.getElementsByClassName("closebutton")[0];
+var closebutton = document.getElementsByClassName("closebutton")[0];
 
-btn.onclick = function() {
+newpostbutton.onclick = function() {
     popup.style.display = "block";
 }
 
-button.onclick = function() {
+closebutton.onclick = function() {
     popup.style.display = "none";
 }
 

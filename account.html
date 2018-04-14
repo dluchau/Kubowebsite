@@ -25,18 +25,17 @@
     </div>
 <main>
       <section id="accountsection">
-
-      <button id="newpostbutton">LOG OUT</button>
-      <div id="newpostpopup" class="popup">
-        <div class="popup-content">
-            <h2>Are you sure that you want to log out?</h2>
-              <p>Topic</p>
-
-                <button class="postbutton">YES</button>
-                <button class="closebutton">NO</button>
-            </div>
-          </div>
-        <script src="assets/js/popup.js"></script>
+        <h1>Account settings</h1>
+        <div id="accountform">
+          <label for="email">UPDATE YOUR DISPLAY NAME</label>
+            <input type="text"name="displayname" placeholder="user1">
+          <label for="password">UPDATE YOUR PASSWORD</label>
+            <input type="password" name="password" placeholder="OLD PASSWORD">
+            <input type="password" name="password" placeholder="NEW PASSWORD">
+            <input type="password" name="password" placeholder="REPEAT NEW PASSWORD">
+          <button onclick="window.location.href='dashboard.html'" class="updatebutton" type="button">UPDATE</button>
+          <button onclick="window.location.href='dashboard.html'" class="cancelbutton" type="button">CANCEL</button>
+        </div>
         </section>
 </main>
 <footer>

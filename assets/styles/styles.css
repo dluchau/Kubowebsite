@@ -53,6 +53,7 @@ p {
   font-size: 20px;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -174,6 +175,18 @@ button{
   background-color: #77bd43;
   float: right;
 }
+
+.cancelbutton {
+  font-size: 20px;
+  background-color: #d74127;
+}
+
+.updatebutton {
+  font-size: 20px;
+  background-color: #77bd43;
+  float:right;
+}
+
 #newpostbutton {
   font-size: 20px;
   background-color: #77bd43;

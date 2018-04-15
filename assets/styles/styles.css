@@ -161,6 +161,12 @@ button{
   background-color: #298dc1;
   margin-left: auto;
 }
+.readbuttonforum {
+  font-size: 20px;
+  background-color: #298dc1;
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
 .backbutton {
   font-size: 20px;
   background-color: #298dc1;
@@ -298,7 +304,7 @@ input[type=text], input[type=password] {
 
 #learningsection {
   max-width: 900px;
-  padding-top: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
   margin: auto;
 }
 .box {
@@ -421,6 +427,7 @@ input[type=text], input[type=password] {
   height: 150px;
   border-radius: 10px;
   margin: 30px 0 30px 0;
+  padding: 0 0 10px;
 }
 
 .forumbox h2 {
@@ -438,9 +445,9 @@ input[type=text], input[type=password] {
 
 #forumpost1section {
   max-width: 900px;
-  padding-top: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
   margin: auto;
-  height: 100vh;
+  height: auto;
 }
 
 .forumpagebox {

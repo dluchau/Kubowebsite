@@ -165,8 +165,23 @@ button{
   font-size: 20px;
   background-color: #298dc1;
   float: right;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 20px 10px 10px;
 }
+.likebutton {
+  font-size: 20px;
+  font-family: "montserrat", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  background-color: #298dc1;
+  text-transform: uppercase;
+  margin: 10px 0px 10px 20px;
+  }
 .backbutton {
   font-size: 20px;
   background-color: #298dc1;
@@ -209,6 +224,10 @@ button:hover{
   opacity:0.5;
 }
 
+.likebutton:hover{
+    opacity:0.5;
+}
+
 /*LOGIN PAGE*/
 #loginsection {
   display: flex;
@@ -242,6 +261,18 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
   border-radius: 10px;
 }
+#currentlike {
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin: 10px 10px 10px 0px;
+}
+
 #forgotpassword {
   float: left;
   margin-top: 40px;

@@ -197,6 +197,8 @@ button{
   font-size: 20px;
   background-color: #77bd43;
   margin-left: auto;
+  float: right;
+  margin-top: 120px;
 }
 
 .tutorialbackbutton {
@@ -415,6 +417,10 @@ input[type=text], input[type=password] {
   font-size: 20px;
   width: 100%;
   height: 55%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
 }
 .forumbox {
   display: flex;
@@ -438,6 +444,11 @@ input[type=text], input[type=password] {
 .forumbox p {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.halfsection {
+  display: flex;
+  flex-direction: row;
 }
 
 

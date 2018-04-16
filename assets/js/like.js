@@ -1,3 +1,9 @@
-var like = function() {
-  document.getElementById("currentlike").value = parseInt(document.getElementById("currentlike").value,10) + 1;
+var likebutton = document.getElementsByClassName('likebutton');
+
+likebutton.onclick = function() {
+    for(var i = 0; i<likebutton.length; i++){
+    
+     document.getElementsByClassName('currentlike')[i].value = "1";
+    }
+
 };

@@ -403,6 +403,16 @@ input[type=text], input[type=password] {
   margin: 0px 0px 50px 0px;
 }
 
+#tutorialleft a {
+  margin-top: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+#tutorialleft a:hover {
+  color: #298dc1;
+}
+
 .right {
   display: flex;
   justify-content: center;
@@ -437,6 +447,9 @@ input[type=text], input[type=password] {
 
 .tutorialhead {
   margin-left: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+  
 }
 
 .tutorialsub {

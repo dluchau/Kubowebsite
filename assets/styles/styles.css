@@ -325,6 +325,24 @@ input[type=text].currentlike {
   margin-left: 15px;
 }
 
+.commentbox {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.commentbox textarea {
+  margin-right: 10px;
+}
+
+.commentbox button {
+  margin-bottom: 10px;
+}
+
+#comment li {
+  list-style-type: none;
+}
+
 .form-wrapper {
   width: 900px;
 height: 150px;

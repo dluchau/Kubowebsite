@@ -1,9 +1,11 @@
 var likebutton = document.getElementsByClassName('likebutton');
 
-likebutton.onclick = function() {
-    for(var i = 0; i<likebutton.length; i++){
-    
-     document.getElementsByClassName('currentlike')[i].value = "1";
-    }
 
-};
+    for(var i = 0; i<likebutton.length; i++){
+      (function(index){
+        likebutton[index].addEventListener('click', function(){
+          document.getElementsByClassName('currentlike')[index].value = parseInt(document.getElementsByClassName('currentlike')[index].value)+1;
+        })
+      })(i);
+
+    }

@@ -2,8 +2,6 @@ var popup = document.getElementById('newpostpopup');
 
 var newpostbutton = document.getElementById("newpostbutton");
 
-var closebutton = document.getElementsByClassName("closebutton")[0];
-
 var popUpPost = document.getElementById("postButton");
 
 var newPost = document.getElementById('new-post');
@@ -29,10 +27,6 @@ document.getElementById('post').appendChild(header);
 
   popup.style.display = "none";
   document.getElementsByClassName('forumbox')[0].style.display= "block";
-}
-
-closebutton.onclick = function() {
-    popup.style.display = "none";
 }
 
 window.onclick = function(event) {

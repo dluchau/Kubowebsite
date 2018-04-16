@@ -489,12 +489,12 @@ height: 150px;
 
 .popup-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
     border-radius: 10px;
     width: 80%;
-    height: 400px;
+    height: 500px;
 }
 
 #newpostform {
@@ -666,7 +666,7 @@ height: 150px;
   display: flex;
   justify-content: center;
   height: auto;
-  
+
 }
 
 .wrapper {
@@ -689,7 +689,7 @@ height: 150px;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
-  
+
 }
 
 .faqheading {

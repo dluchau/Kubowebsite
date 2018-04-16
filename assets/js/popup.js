@@ -14,10 +14,7 @@ newpostbutton.onclick = function() {
     popup.style.display = "block";
 }
 
-
-
 popUpPost.onclick = function (){
-  //var heading = document.createElement('H2');
   var newPost = document.getElementById('new-post');
   var paragraph = document.createElement('P');
   var header = document.createElement('H2');

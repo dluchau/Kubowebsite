@@ -217,7 +217,9 @@ button{
 }
 
 .tutorialbackbutton {
-  margin: 0;
+
+  width: 100px;
+  height: 35px;
 }
 
 button:hover{
@@ -393,8 +395,7 @@ input[type=text], input[type=password] {
 #tutorialleft {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: white;
+  background-color: #fff;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 300px;
   height: 450px;
@@ -404,25 +405,34 @@ input[type=text], input[type=password] {
 
 .right {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 550px;
-  height: 450px;
-
+  height: 450px; 
+  margin-left: 50px;  
 }
 
 #tutorialright {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #298dc1;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   width: 550px;
   height: 300px;
   border-radius: 10px;
-  margin: 0px 0px 105px 50px;
+
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+}
+
+.video video {
+  margin-top: -30px;
 }
 
 .tutorialhead {

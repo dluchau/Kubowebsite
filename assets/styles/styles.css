@@ -655,6 +655,76 @@ input[type=text], input[type=password] {
 }
 
 
+/*Supportsections*/
+
+#supportsection {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 900px;
+  height: 100vh;
+}
+
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  height: 190px;
+  margin-bottom: 30px;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+}
+
+.faqheading {
+  display: flex;
+  font-family: "montserrat", sans-serif;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.faq h4 {
+  margin-left: 15px;
+}
+
+.faq p {
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+.faqbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "montserrat", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  width: 70px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  background-color: #298dc1;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 28%;
+}
+
+
 footer {
   display: flex;
   align-items: center;

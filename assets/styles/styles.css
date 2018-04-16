@@ -53,6 +53,7 @@ p {
   font-size: 20px;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -160,6 +161,27 @@ button{
   background-color: #298dc1;
   margin-left: auto;
 }
+.readbuttonforum {
+  font-size: 20px;
+  background-color: #298dc1;
+  float: right;
+  margin: 10px 20px 10px 10px;
+}
+.likebutton {
+  font-size: 20px;
+  font-family: "montserrat", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  background-color: #298dc1;
+  text-transform: uppercase;
+  margin: 10px 0px 10px 20px;
+  }
 .backbutton {
   font-size: 20px;
   background-color: #298dc1;
@@ -174,10 +196,24 @@ button{
   background-color: #77bd43;
   float: right;
 }
+
+.cancelbutton {
+  font-size: 20px;
+  background-color: #d74127;
+}
+
+.updatebutton {
+  font-size: 20px;
+  background-color: #77bd43;
+  float:right;
+}
+
 #newpostbutton {
   font-size: 20px;
   background-color: #77bd43;
   margin-left: auto;
+  float: right;
+  margin-top: 120px;
 }
 
 .tutorialbackbutton {
@@ -186,6 +222,10 @@ button{
 
 button:hover{
   opacity:0.5;
+}
+
+.likebutton:hover{
+    opacity:0.5;
 }
 
 /*LOGIN PAGE*/
@@ -221,6 +261,18 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
   border-radius: 10px;
 }
+#currentlike {
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin: 10px 10px 10px 0px;
+}
+
 #forgotpassword {
   float: left;
   margin-top: 40px;
@@ -285,7 +337,7 @@ input[type=text], input[type=password] {
 
 #learningsection {
   max-width: 900px;
-  padding-top: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
   margin: auto;
 }
 .box {
@@ -396,6 +448,10 @@ input[type=text], input[type=password] {
   font-size: 20px;
   width: 100%;
   height: 55%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
 }
 .forumbox {
   display: flex;
@@ -408,6 +464,7 @@ input[type=text], input[type=password] {
   height: 150px;
   border-radius: 10px;
   margin: 30px 0 30px 0;
+  padding: 0 0 10px;
 }
 
 .forumbox h2 {
@@ -420,14 +477,19 @@ input[type=text], input[type=password] {
   margin-right: 20px;
 }
 
+.halfsection {
+  display: flex;
+  flex-direction: row;
+}
+
 
 /*FORUMPOSTS*/
 
 #forumpost1section {
   max-width: 900px;
-  padding-top: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
   margin: auto;
-  height: 100vh;
+  height: auto;
 }
 
 .forumpagebox {

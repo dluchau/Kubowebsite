@@ -18,6 +18,7 @@ window.onclick = function(event) {
     }
 }
 
+<<<<<<< HEAD
 function getLocal () {
 	var notes = localStorage.getItem("noteList")
 
@@ -68,3 +69,8 @@ window.onload = function() {
 		ulElm.appendChild(liElm);
 	}
 }
+=======
+var like = function() {
+  document.getElementById("currentlike").value = parseInt(document.getElementById("currentlike").value,10) + 1;
+};
+>>>>>>> 65ce7038b1a181ab9a1670bd3c10e7a3fc683df5

@@ -263,7 +263,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
   border-radius: 10px;
 }
-#currentlike {
+input[type=text].currentlike {
   color: #000000;
   padding: 5px 10px;
   border-radius: 10px;
@@ -325,6 +325,11 @@ input[type=text], input[type=password] {
   margin-left: 15px;
 }
 
+.form-wrapper {
+  width: 900px;
+height: 150px;
+}
+
 .downloadbutton {
   display: flex;
   justify-content: center;
@@ -342,7 +347,7 @@ input[type=text], input[type=password] {
   font-weight: 400;
   border: none;
   cursor: pointer;
-  
+
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
   margin-top: 10px;
 }
@@ -351,7 +356,7 @@ input[type=text], input[type=password] {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
-} 
+}
 
 /*ACCOUNT PAGE*/
 
@@ -419,8 +424,8 @@ input[type=text], input[type=password] {
   justify-content: center;
   align-items: flex-start;
   width: 550px;
-  height: 450px; 
-  margin-left: 50px;  
+  height: 450px;
+  margin-left: 50px;
 }
 
 #tutorialright {

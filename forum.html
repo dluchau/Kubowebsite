@@ -34,50 +34,63 @@
         <div class="popup-content">
             <h2>NEW POST</h2>
               <p>TOPIC: ALL - NEWS - GENERAL - SUPPORT</p>
+              <input type="text" placeholder="title" id="header-input">
                 <textarea id="newpostform" placeholder="Enter your post here"></textarea>
-                <button class="postbutton">POST</button>
+                <button class="postbutton" id="postButton"  >POST</button>
                 <button class="closebutton">CLOSE</button>
             </div>
           </div>
-        <script src="assets/js/script.js">
+        <script src="assets/js/popup.js">
         </script>
 
         <h1>Forum</h1>
         <p>TOPIC: ALL - NEWS - GENERAL - SUPPORT</p>
         <p>SORT: POPULAR - NEW</p>
-        <div class="forumbox">
-          <div>
+        <div class="forumbox" style="display: none;">
+          <!-- new post -->
+          <div class="comment-wrapper" id="new-post" >
+              <div id="post">
+
+              </div>
+              <!-- <button onclick="window.location.href='forumpost1.html'" type="button" class="readbuttonforum">READ</button>-->
+              <input class="likebutton" type="button" value="LIKE" />
+              <input type="text" value="0" class="currentlike"/>
+          </div></div>
+
+          <!-- end new post -->
+<div class="forumbox">
+<div class="comment-wrapper">
             <h2>Heading for forum post 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla nisl, id fringilla dui. Duis facilisis elit ut dolor volutpat bibendum.</p>
               <button onclick="window.location.href='forumpost1.html'" type="button" class="readbuttonforum">READ</button>
-              <input class="likebutton" type="button" value="LIKE" onclick="like()"/>
-  <input type="text" value="0" id="currentlike"/>
+              <input class="likebutton" type="button" value="LIKE" />
+              <input type="text" value="0" class="currentlike"/>
           </div>
         </div>
-         <script src="assets/js/like.js"></script>
+
         <div class="forumbox">
-          <div>
+          <div class="comment-wrapper">
           <h2>Heading for forum post 2</h2>
           <p>Lorem ipsum dolor sit amet, consecteturr adipiscing elit. Vestibulum non fringilla nisl, id fringilla dui. Duis facilisis elit ut dolor volutpat bibendum.</p>
             <button onclick="window.location.href='forumpost2.html'" type="button" class="readbuttonforum">READ</button>
           </div>
         </div>
         <div class="forumbox">
-          <div>
+<div class="comment-wrapper">
           <h2>Heading for forum post 3</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla nisl, id fringilla dui. Duis facilisis elit ut dolor volutpat bibendum.</p>
             <button onclick="window.location.href='forumpost3.html'" type="button" class="readbuttonforum">READ</button>
           </div>
         </div>
         <div class="forumbox">
-          <div>
+<div class="comment-wrapper">
             <h2>Heading for forum post 4</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla nisl, id fringilla dui. Duis facilisis elit ut dolor volutpat bibendum.</p>
               <button onclick="window.location.href='forumpost4.html'" type="button" class="readbuttonforum">READ</button>
           </div>
         </div>
         <div class="forumbox">
-          <div>
+<div class="comment-wrapper">
             <h2>Heading for forum post 5</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non fringilla nisl, id fringilla dui. Duis facilisis elit ut dolor volutpat bibendum. </p>
             <button onclick="window.location.href='forumpost5.html'" type="button" class="readbuttonforum">READ</button>
@@ -90,5 +103,6 @@
 <footer>
     <p>KUBO Robotics ApS | Niels Bohrs Allé 185, 5220 Odense SØ | SE/CVR-nr.: 37043958e</p>
 </footer>
+<script src="assets/js/like.js"></script>
   </body>
 </html>

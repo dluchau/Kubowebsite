@@ -9,7 +9,9 @@ var popUpPost = document.getElementById("postButton");
 var newPost = document.getElementById('new-post');
 
 var textArea = document.getElementById('newpostform');
+
 var inputField = document.getElementById('header-input');
+
 newpostbutton.onclick = function() {
     popup.style.display = "block";
 }

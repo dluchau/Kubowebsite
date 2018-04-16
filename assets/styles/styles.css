@@ -660,29 +660,30 @@ input[type=text], input[type=password] {
 #supportsection {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: auto;
 }
 
 .wrapper {
   width: 900px;
-  height: 100vh;
+  height: auto;
 }
 
 .faqbox {
   display: flex;
   justify-content: space-between;
-  height: 190px;
+  height: 225px;
   margin-bottom: 30px;
 }
 
 .faq {
   display: flex;
   flex-direction: column;
-  height: 190px;
+  height: 225px;
   width: 200px;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 1px 6px 12px  rgba(0, 0, 0, 0.16);
+  
 }
 
 .faqheading {
@@ -724,6 +725,10 @@ input[type=text], input[type=password] {
   margin-left: 28%;
 }
 
+.faqbutton a {
+  color: #fff;
+  text-decoration: none;
+}
 
 footer {
   display: flex;
